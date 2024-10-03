@@ -1,0 +1,9 @@
+<input type="text" [(ngModel)]="painting"/>
+
+<button class="btn btn-primary" (click)="addItems()">Add Item</button>
+
+<ul>
+  <li *ngFor="let item of paintingList">
+      {{item}}
+  </li>
+</ul>
