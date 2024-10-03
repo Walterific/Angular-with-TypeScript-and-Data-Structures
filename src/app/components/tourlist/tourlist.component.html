@@ -1,0 +1,9 @@
+<input type="text" [(ngModel)]="tour">
+
+<button class="btn btn-primary" (click)="addItems()">Add Item</button>
+
+<ul>
+    <li *ngFor="let item of tourList">
+        {{item}}
+    </li>
+</ul>
