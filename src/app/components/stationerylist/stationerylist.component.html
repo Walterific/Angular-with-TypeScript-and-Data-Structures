@@ -1,0 +1,9 @@
+<input type="text" [(ngModel)]="stationary"/>
+
+<button class="btn btn-primary" (click)="addItems()">Add Item</button>
+
+<ul>
+  <li *ngFor="let item of stationaryList">
+      {{item}}
+  </li>
+</ul>
