@@ -1,0 +1,10 @@
+<input type="text" [(ngModel)]="sports"/>
+
+<button class="btn btn-primary" (click)="addItems()">Add Item</button>
+
+
+<ul>
+  <li *ngFor="let item of sportsList">
+      {{item}}
+  </li>
+</ul>
